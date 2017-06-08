@@ -4,6 +4,8 @@ Within Owncloud, use the code signing integrity features, without integrity chec
 Owncloud have implement a very strong integrity code policy. As a result, if you want to use an old module, on the new version, it will work, but you will have constantly an annoying warning:
 "There were problems with the code integrity check. More information..."
 
+https://doc.owncloud.org/server/9.0/admin_manual/issues/code_signing.html
+https://doc.owncloud.org/server/10.0/admin_manual/issues/code_signing.html
 ![Code integrity notification](https://doc.owncloud.org/server/9.0/admin_manual/_images/code-integrity-notification.png)
 
 Code signing protection is a very good feature, since in php, sometimes, code can be compromized, then it's a really good approach.
